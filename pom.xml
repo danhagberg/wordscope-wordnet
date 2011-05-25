@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.digitaltsunami.wordscope</groupId>
+  <artifactId>wordscope-wordnet</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>wordscope-wordnet</name>
+  <description>Utilities used when processing WordNet files for wordscope</description>
+  <dependencies>
+    <dependency>
+      <groupId>net.digitaltsunami</groupId>
+      <artifactId>wordscope</artifactId>
+      <version>0.1-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+    	<groupId>junit</groupId>
+    	<artifactId>junit</artifactId>
+    	<version>4.8.2</version>
+    </dependency>
+  </dependencies>
+</project>
