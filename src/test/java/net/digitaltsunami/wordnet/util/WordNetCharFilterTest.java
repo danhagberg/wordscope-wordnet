@@ -2,8 +2,8 @@ package net.digitaltsunami.wordnet.util;
 
 import static org.junit.Assert.*;
 
-import net.digitaltsunami.word.util.CharFilter;
-import net.digitaltsunami.word.util.LetterCharFilter;
+import net.digitaltsunami.word.trie.filter.CharFilter;
+import net.digitaltsunami.word.trie.filter.LetterCharFilter;
 
 import org.junit.Test;
 

@@ -3,7 +3,7 @@
  */
 package net.digitaltsunami.wordnet.util;
 
-import net.digitaltsunami.word.util.CharFilter;
+import net.digitaltsunami.word.trie.filter.CharFilter;
 
 /**
  * Char filter to change term separator ('_') in wordnet entries to a space. All
@@ -18,9 +18,8 @@ public class WordNetCharFilter implements CharFilter {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see net.digitaltsunami.word.util.CharFilter#apply(char)
+	 * @see net.digitaltsunami.word.trie.CharFilter#apply(char)
 	 */
-	@Override
 	public char apply(char input) {
 		if (input == '_') {
 			return ' ';
